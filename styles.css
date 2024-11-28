@@ -1,0 +1,100 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px;
+    color: #4A4A4A;
+    /* Graphite for text */
+    background-color: #FAF9F6;
+    /* Off-white background */
+}
+
+/* Header Styles */
+header {
+    background-color: #5A189A;
+    /* Royal Purple */
+    color: #FFFFFF;
+    /* White text */
+    padding: 1em 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+/* Navigation Links */
+nav a {
+    color: #9D4EDD;
+    /* Lilac for links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #FF6F61;
+    /* Bright Coral hover */
+    text-decoration: underline;
+}
+
+/* Section Titles */
+section h2 {
+    color: #5A189A;
+    /* Royal Purple */
+    border-bottom: 2px solid #9D4EDD;
+    /* Lilac underline */
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+.carousel-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black */
+    color: #FFFFFF;
+    /* White */
+    border: none;
+    border-radius: 50%;
+}
+
+.carousel-btn:hover {
+    background-color: #FF6F61;
+    /* Bright Coral */
+}
+
+/* Footer */
+footer {
+    background-color: #5A189A;
+    /* Royal Purple */
+    color: #FFFFFF;
+    /* White text */
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Responsive Image Container */
+.responsive-image-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.responsive-image-container img {
+    width: 100%;
+    height: auto;
+}
